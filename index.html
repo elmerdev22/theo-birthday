@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Theo 1st Birthday!</title>
+        <title>Matheo Theodore 1st Birthday!</title>
         <!-- CSS only -->
         <link rel="icon" type="image/icon" href="https://www.flaticon.com/svg/static/icons/svg/3159/3159408.svg">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -11,13 +11,6 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     </head>
     <body>
-        
-        <embed 
-        src="assets/song1.mp3"
-        loop="true"
-        autostart="true"
-        hidden="true"
-        mastersound>
 
         <div class="container-fluid p-0">
             <div class="col-12 text-center">
