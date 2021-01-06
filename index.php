@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Matheo Theodore 1st Birthday!</title>
         <!-- CSS only -->
         <link rel="icon" type="image/icon" href="https://www.flaticon.com/svg/static/icons/svg/3159/3159408.svg">
