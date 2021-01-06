@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Matheo Theodore 1st Birthday!</title>
         <!-- CSS only -->
         <link rel="icon" type="image/icon" href="https://www.flaticon.com/svg/static/icons/svg/3159/3159408.svg">
@@ -8,7 +10,6 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet">        
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     </head>
     <body>
 
@@ -41,12 +42,10 @@
                     <li><span id="seconds" class="text-danger"></span>Seconds</li>
                 </ul>
             </div>
-          </div>
-        
-        <audio id="song">
-            <source src="assets/song1.mp3" type="audio/mpeg">
-        </audio>
+        </div>
+        <audio id="a1" preload="auto" autoplay loop src="assets/song1.mp3"></audio>
         <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
         <script src="assets/js/function.js"></script>
     </body>
 </html>

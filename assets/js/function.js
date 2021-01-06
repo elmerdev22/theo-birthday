@@ -1,5 +1,4 @@
 (function () {
-    document.getElementById('song').play();
     
     const second = 1000,
           minute = second * 60,
@@ -37,6 +36,7 @@
     function join(){
         if(document.getElementById("name").value == ''){
             Swal.fire({
+                confirmButtonText: 'Okay',
                 icon: 'error',
                 title: 'Oops...',
                 text: 'Please input your name!',
@@ -44,7 +44,7 @@
         }
         else{
             Swal.fire({
-                html: '<img class="img-fluid" src="assets/img/Theoticket.jpg">'+'<br>'+'<a class="btn btn-primary mt-3" href="assets/img/Theoticket.jpg" download>Download Ticket</a>',
+                html: '<img class="img-fluid" src="assets/img/Theo-ticket.jpg">'+'<br>'+'<a class="btn btn-primary mt-3" href="assets/img/Theo-ticket.jpg" download>Download Ticket</a>',
                 width: 600,
                 showConfirmButton: false,
             })
